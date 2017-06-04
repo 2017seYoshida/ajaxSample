@@ -28,7 +28,12 @@
 			$.ajax({
 				url : "json",
 				dataType : "json",
-				data : {"data" : time},
+				data : {
+					//key : value
+					//"time" : 変数timeと同義
+					time : time,
+					date : "2017/6/4"
+				},
 				success : function(data) {
 					success(data);
 				},

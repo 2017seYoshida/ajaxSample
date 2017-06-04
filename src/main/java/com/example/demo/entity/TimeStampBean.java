@@ -10,7 +10,5 @@ import lombok.*;
 @AllArgsConstructor
 @ToString
 public class TimeStampBean {
-	private int id;
-	private String name;
 	private Timestamp time;
 }
